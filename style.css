@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+    background-color: #FFDEE9;
+    
+}
+
+.quadrado{
+        width: 70%;
+        height: 450px;
+        border: 25px solid;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        border: 0;
+        border-radius: 20px 20px 20px 20px ;
+        display: flex;
+        background: #f8f7f7;
+        box-shadow:  20px 20px 60px #0e01019c,
+             -20px -20px 60px #0a01011a;
+}
+
+.imagem{
+    height: 450px;
+    border-radius: 20px 0 0 20px ;
+    background: #f8f7f7;
+    box-shadow:  20px 20px 60px #0e01019c,
+             -20px -20px 60px #0a01011a;
+}
+
+.p1{
+    position: relative;
+   
+    padding: 1%;
+    font-size: 20PX;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    box-shadow:  20px 20px 60px #0e01019c,
+             -20px -20px 60px #0a01011a;
+    
+}
+
+.box{
+    text-align: center;
+    padding: 15px;
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 0px;
+    border-radius: 33px;
+    background: #f8f7f7;
+    box-shadow:  20px 20px 60px #0e01019c,
+             -20px -20px 60px #0a01011a;
+}
+.nome{
+    font-family: 'Alkalami', serif;
+    font-size: 34px;
+    font-style: oblique;
+    background-color: white;
+    float: left;
+}
+
+.descrição{
+    margin-top: 15%;
+    text-align: left;
+    background-color: white;
+    float: left;
+    padding: 5%;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 20PX;
+    font-weight: bolder;
+}
+
+.valor{
+    background-color: white;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 90%;
+    font-size: 30px;
+    color: #3EB72B;
+    font-family: 'Alkalami', serif;
+    font-weight: bolder;
+    
+}
+
+.valor2{
+    
+    text-decoration: line-through;
+    background-color: white;
+    display: inline;
+    color: black;
+    font-size: 50%;
+}
+
+.botao{
+        width: 80%;
+        height: 13%;
+        background-color: #3EB72B;
+        font-size: 150%;
+        font-weight: bolder;
+        font-family: 'Rubik Dirt', cursive;
+        margin-top: 5%;
+        border-radius: 10px 10px 10px 10px;
+        cursor: pointer;
+}
+.botao:hover{
+    transform: scale(1.05);
+}
